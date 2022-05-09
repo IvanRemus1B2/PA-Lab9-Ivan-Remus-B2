@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CompulsoryL9Ent:war exploded">
+    <output-path>$PROJECT_DIR$/target/CompulsoryL9Ent-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>CompulsoryL9Ent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CompulsoryL9Ent" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.7.9" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:jakarta.persistence:2.2.3" />
+          <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />
+          <element id="library" level="project" name="Maven: com.oracle.database.jdbc:ojdbc10:19.14.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.10.0" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: com.github.javafaker:javafaker:1.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:android:1.23" />
+          <element id="library" level="project" name="Maven: com.github.mifmif:generex:1.0.2" />
+          <element id="library" level="project" name="Maven: dk.brics.automaton:automaton:1.11-8" />
+          <element id="library" level="project" name="Maven: org.jgrapht:jgrapht-core:1.5.1" />
+          <element id="library" level="project" name="Maven: org.jheaps:jheaps:0.13" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.19" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/CompulsoryL9Ent-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="CompulsoryL9Ent/web/Web" />
+    </root>
+  </artifact>
+</component>

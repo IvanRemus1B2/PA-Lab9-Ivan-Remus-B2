@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CompulsoryL9Ent:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CompulsoryL9Ent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CompulsoryL9Ent-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CompulsoryL9Ent:war exploded" />
+    </root>
+  </artifact>
+</component>
